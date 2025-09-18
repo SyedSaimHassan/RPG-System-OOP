@@ -2,5 +2,5 @@
 
 void PhysicalFighter::attack()
 {
-    cout << "The character " << PhysicalFighter::getCharacterType()<< " is attacking with strength:" << strength << endl;
+    cout << "The character " << PhysicalFighter::getName()<< " is attacking with strength:" << strength << endl;
 }

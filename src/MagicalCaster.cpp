@@ -2,5 +2,5 @@
 
 void MagicalCaster::attack()
 {
-    cout << "The character " << MagicalCaster::getCharacterType() << " is attacking with Magic of intelligence:" << intelligence << endl;
+    cout << "The character " << MagicalCaster::getName() << " is attacking with Magic of intelligence:" << intelligence << endl;
 }
